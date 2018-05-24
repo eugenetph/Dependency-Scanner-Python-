@@ -21,7 +21,7 @@ Here are the steps to run Dependency Scanner (Python):
    **Note: You are required to install safety check for this project program to work**
 
 
-3. After you have git clone or download Dependency Scanner (Python), you have to resolve the dependencies and modify the absolute file path    in the source code using the NetBeans IDE to suit your computer device.
+3. After you have git clone or download Dependency Scanner (Python), you have to resolve the dependencies and modify the current directory path to your own directory path using the NetBeans IDE
 
    1. The 2 classes to be modified are:
    ```bash
