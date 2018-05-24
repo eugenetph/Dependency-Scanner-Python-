@@ -15,7 +15,7 @@ Here are the steps to run Dependency Scanner (Python):
    ```bash
    https://github.com/jeremylong/DependencyCheck - (Project source code of Dependency Check)
    ```
-   2. `[Safety Check](https://github.com/pyupio/safety)` (You are required to install safety check for this project program to work)
+   2. `Safety Check` (You are required to install safety check for this project program to work)
    ```bash
    https://github.com/pyupio/safety - (Follow the steps under "readme.md")
    ```
