@@ -14,9 +14,11 @@ Here are the steps to run Dependency Scanner (Python):
 
    https://github.com/jeremylong/DependencyCheck - (Project source code of Dependency Check)
    
-   2. `Safety Check` (You are required to install safety check for this project program to work)
+   2. `Safety Check`
 
    https://github.com/pyupio/safety - (Follow the steps under "readme.md")
+   
+   Note: You are required to install safety check for this project program to work
 
 
 3. After you have git clone or download Dependency Scanner (Python), you have to resolve the dependencies and modify the absolute file path    in the source code using the NetBeans IDE to suit your computer device.
