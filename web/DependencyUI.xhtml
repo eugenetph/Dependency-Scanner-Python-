@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <link href="CSS/mystyle.css" rel="stylesheet" type="text/css"></link>
+        <script src="JavaScript/jquery-3.2.1.js"></script>
+        <script src="JavaScript/myscript.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"></link>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <title>Dependency Scanner</title>
+    </head>
+    
+    <body>
+        <center>
+            <h1 class="title">Welcome to Dependency Scanner!</h1>
+            <form method="POST" enctype="multipart/form-data" id="fileUploadForm">
+                <div class="container" style="width:700px;">
+                    <div class="file_drag_area" for="file">
+                        <p id="dropFileText">Drop Files Here</p>
+                        <img src="ImageIcon/upload_image.png" id="uploadImage"></img>
+                    <p><input type="file" name="fname" id="file" class="inputfile" multiple="mutiple"/></p>
+                    </div>
+                </div>
+                <input id="upload" type="image" src="ImageIcon/upload_icon.png" /> 
+                <div id="directoryCreation"></div>
+            </form>
+            <div class="progress">
+                <div id="progressBar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                    0%
+                </div>
+            </div>
+            <a id="nextpage" href ="ViewReport.jsp?"></a>
+            <img id="loading" src="ImageIcon/Loading_icon.gif" ></img>
+            <!-- viewreport?filehash=hash-->
+            <p id="fileinfo"></p>
+            <div id="ajaxGetUserServletResponse"></div>
+        </center>
+    </body>
+</html>
+

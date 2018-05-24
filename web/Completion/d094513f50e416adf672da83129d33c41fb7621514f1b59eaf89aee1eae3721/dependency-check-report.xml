@@ -1,0 +1,2001 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://jeremylong.github.io/DependencyCheck/dependency-check.1.6.xsd">
+    <scanInfo>
+        <engineVersion>3.1.1</engineVersion>
+        <dataSource>
+            <name>NVD CVE 2002</name>
+            <timestamp>16/05/2018 15:43:39</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2003</name>
+            <timestamp>06/05/2018 15:02:06</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2004</name>
+            <timestamp>18/05/2018 15:43:31</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2005</name>
+            <timestamp>03/05/2018 15:52:50</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2006</name>
+            <timestamp>03/05/2018 15:49:37</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2007</name>
+            <timestamp>16/05/2018 15:41:00</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2008</name>
+            <timestamp>13/05/2018 15:19:44</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2009</name>
+            <timestamp>16/05/2018 15:37:47</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2010</name>
+            <timestamp>24/05/2018 16:30:38</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2011</name>
+            <timestamp>24/05/2018 16:30:36</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2012</name>
+            <timestamp>24/05/2018 16:30:36</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2013</name>
+            <timestamp>24/05/2018 16:30:38</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2014</name>
+            <timestamp>24/05/2018 16:30:37</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2015</name>
+            <timestamp>24/05/2018 16:30:36</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2016</name>
+            <timestamp>24/05/2018 16:30:38</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2017</name>
+            <timestamp>24/05/2018 16:30:37</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2018</name>
+            <timestamp>24/05/2018 15:02:04</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE Checked</name>
+            <timestamp>24/05/2018 17:46:44</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE Modified</name>
+            <timestamp>24/05/2018 13:01:25</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>VersionCheckOn</name>
+            <timestamp>1525697588431</timestamp>
+        </dataSource>
+    </scanInfo>
+    <projectInfo>
+        <name>free-python-games-master.zip</name>
+        <version>3.1.1</version>
+        <reportDate>2018-05-24T17:47:12.344+0800</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov and from the Node Security Platform: https://nodesecurity.io</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency isVirtual="false">
+            <fileName>freegames:2.1.2</fileName>
+            <filePath>C:\Users\Eugene\Desktop\GitRepository\Dependency-Scanner-(Python)\DependencyCheck\web\Completion\d094513f50e416adf672da83129d33c41fb7621514f1b59eaf89aee1eae3721\free-python-games-master.zip\free-python-games-master\free-python-games-master\free-python-games-master\freegames\__init__.py</filePath>
+            <md5>c359c7209b7d941e44dfc5a4fcbe8b76</md5>
+            <sha1>211a4282971c3b522f109110cd68a97acac854d0</sha1>
+            <description>Free Python Games
+
+Free Python Games is an Apache2 licensed collection of free Python games
+intended for education and fun. The games are written in simple Python code and
+designed for experimentation and changes. Simplified versions of several
+classic arcade games are included.
+
+Python is one of the top-five most popular programming languages in the world
+and available for free from www.python.org. Python includes an extensive
+Standard Library distributed with your installation. The Standard Library has a
+module called Turtle which is a popular way to introduce programming to
+kids. Turtle was part of the original Logo programming language developed by
+Wally Feurzig and Seymour Papert in 1966. All of the games in Free Python Games
+are implemented using Python and its Turtle module.
+
+Starting in 2012, Free Python Games began as an after school program to teach
+programming to inner-city youth. The goal was to have fun as much as it was to
+learn. Since then the games have been improved and used in a variety of
+settings ranging from classrooms to summer day-camps.
+
+The games run anywhere Python can be installed which includes desktop computers
+running Windows, Mac OS, or Linux and older or low-power hardware such as the
+Raspberry Pi. Kids across the United States in grades 6th-12th have enjoyed
+learning about topics such as encryption and projectile motion through games.
+
+Each game is entirely independent from the others and includes comments along
+with a list of exercises to work through with students. Creativity and
+flexibility is important. There is no right or wrong way to implement a new
+feature or behavior! You never know which games students will engage with best.
+
+Free Python Games supports a command-line interface (CLI). Help for the CLI is
+available using::
+
+  $ python3 -m freegames --help
+
+The CLI supports three commands: list, copy, and show. For a list of all games
+run::
+
+  $ python3 -m freegames list
+
+Any of the listed games may be played by executing the Python module from the
+command-line. To reference the Python module, combine &quot;freegames&quot; with the name
+of the game. For example, to play the &quot;snake&quot; game run::
+
+  $ python3 -m freegames.snake
+
+Games can be modified by copying their source code. The copy command will
+create a Python file in your local directory which you can edit. For example,
+to copy and play the &quot;snake&quot; game run::
+
+  $ python3 -m freegames copy snake
+  $ python3 snake.py
+
+Python includes a built-in text editor named IDLE which can also execute Python
+code. To launch the editor and make changes to the &quot;snake&quot; game run::
+
+  $ python3 -m idlelib.idle snake.py
+
+</description>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="LOW">
+                    <source>__init__.py</source>
+                    <name>docstring</name>
+                    <value>Free Python Games Free Python Games is an Apache2 licensed collection of free Python games
+intended for education and fun. The games are written in simple Python code and
+designed for experimentation and changes. Simplified versions of several
+classic arcade games are included. Python is one of the top-five most popular programming languages in the world
+and available for free from www.python.org. Python includes an extensive
+Standard Library distributed with your installation. The Standard Library has a
+module called Turtle which is a popular way to introduce programming to
+kids. Turtle was part of the original Logo programming language developed by
+Wally Feurzig and Seymour Papert in 1966. All of the games in Free Python Games
+are implemented using Python and its Turtle module. Starting in 2012, Free Python Games began as an after school program to teach
+programming to inner-city youth. The goal was to have fun as much as it was to
+learn. Since then the games have been improved and used in a variety of
+settings ranging from classrooms to summer day-camps. The games run anywhere Python can be installed which includes desktop computers
+running Windows, Mac OS, or Linux and older or low-power hardware ...</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>__init__.py</source>
+                    <name>SourceAuthor</name>
+                    <value>Grant Jenks</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>__init__.py</source>
+                    <name>SourceTitle</name>
+                    <value>freegames</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>__init__.py</source>
+                    <name>docstring</name>
+                    <value>Free Python Games Free Python Games is an Apache2 licensed collection of free Python games
+intended for education and fun. The games are written in simple Python code and
+designed for experimentation and changes. Simplified versions of several
+classic arcade games are included. Python is one of the top-five most popular programming languages in the world
+and available for free from www.python.org. Python includes an extensive
+Standard Library distributed with your installation. The Standard Library has a
+module called Turtle which is a popular way to introduce programming to
+kids. Turtle was part of the original Logo programming language developed by
+Wally Feurzig and Seymour Papert in 1966. All of the games in Free Python Games
+are implemented using Python and its Turtle module. Starting in 2012, Free Python Games began as an after school program to teach
+programming to inner-city youth. The goal was to have fun as much as it was to
+learn. Since then the games have been improved and used in a variety of
+settings ranging from classrooms to summer day-camps. The games run anywhere Python can be installed which includes desktop computers
+running Windows, Mac OS, or Linux and older or low-power hardware ...</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>__init__.py</source>
+                    <name>PackageName</name>
+                    <value>freegames</value>
+                </evidence>
+                <evidence type="version" confidence="MEDIUM">
+                    <source>__init__.py</source>
+                    <name>SourceVersion</name>
+                    <value>2.1.2</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe" confidence="MEDIUM">
+                    <name>(cpe:/a:python_software_foundation:python:2.1.2)</name>
+                    <url>https://web.nvd.nist.gov/view/vuln/search-results?adv_search=true&amp;cves=on&amp;cpe_version=cpe%3A%2Fa%3Apython_software_foundation%3Apython%3A2.1.2</url>
+                </identifier>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:apache:mod_python:2.1.2)</name>
+                </identifier>
+            </identifiers>
+            <vulnerabilities>
+                <vulnerability source="NVD">
+                    <name>CVE-2002-0185</name>
+                    <cvssScore>7.5</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <description>mod_python version 2.7.6 and earlier allows a module indirectly imported by a published module to then be accessed via the publisher, which allows remote attackers to call possibly dangerous functions from the imported module.</description>
+                    <references>
+                        <reference>
+                            <source>MISC</source>
+                            <url>http://www.modpython.org/pipermail/mod_python/2002-April/002003.html</url>
+                            <name>http://www.modpython.org/pipermail/mod_python/2002-April/002003.html</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>http://www.iss.net/security_center/static/8997.php</url>
+                            <name>modpython-imported-module-access(8997)</name>
+                        </reference>
+                        <reference>
+                            <source>CONECTIVA</source>
+                            <url>http://distro.conectiva.com.br/atualizacoes/?id=a&amp;anuncio=000477</url>
+                            <name>CLA-2002:477</name>
+                        </reference>
+                        <reference>
+                            <source>MISC</source>
+                            <url>http://www.modpython.org/pipermail/mod_python/2002-April/001991.html</url>
+                            <name>http://www.modpython.org/pipermail/mod_python/2002-April/001991.html</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/4656</url>
+                            <name>4656</name>
+                        </reference>
+                        <reference>
+                            <source>REDHAT</source>
+                            <url>http://www.redhat.com/support/errata/RHSA-2002-070.html</url>
+                            <name>RHSA-2002:070</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software allPreviousVersion="true">cpe:/a:apache:mod_python:2.7.6</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2002-1119</name>
+                    <cvssScore>4.6</cvssScore>
+                    <cvssAccessVector>LOCAL</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <description>os._execvpe from os.py in Python 2.2.1 and earlier creates temporary files with predictable names, which could allow local users to execute arbitrary code via a symlink attack.</description>
+                    <references>
+                        <reference>
+                            <source>CALDERA</source>
+                            <url>ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-2002-045.0.txt</url>
+                            <name>CSSA-2002-045.0</name>
+                        </reference>
+                        <reference>
+                            <source>MISC</source>
+                            <url>http://mail.python.org/pipermail/python-dev/2002-August/027229.html</url>
+                            <name>http://mail.python.org/pipermail/python-dev/2002-August/027229.html</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://marc.info/?l=bugtraq&amp;m=104333092200589&amp;w=2</url>
+                            <name>20030123 [OpenPKG-SA-2003.006] OpenPKG Security Advisory (python)</name>
+                        </reference>
+                        <reference>
+                            <source>REDHAT</source>
+                            <url>http://www.redhat.com/support/errata/RHSA-2003-048.html</url>
+                            <name>RHSA-2003:048</name>
+                        </reference>
+                        <reference>
+                            <source>CONECTIVA</source>
+                            <url>http://distro.conectiva.com.br/atualizacoes/?id=a&amp;anuncio=000527</url>
+                            <name>CLA-2002:527</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/5581</url>
+                            <name>5581</name>
+                        </reference>
+                        <reference>
+                            <source>REDHAT</source>
+                            <url>http://www.redhat.com/support/errata/RHSA-2002-202.html</url>
+                            <name>RHSA-2002:202</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>http://www.iss.net/security_center/static/10009.php</url>
+                            <name>python-execvpe-tmpfile-symlink(10009)</name>
+                        </reference>
+                        <reference>
+                            <source>MANDRAKE</source>
+                            <url>http://www.linux-mandrake.com/en/security/2002/MDKSA-2002-082.php</url>
+                            <name>MDKSA-2002:082</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2002/dsa-159</url>
+                            <name>DSA-159</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software allPreviousVersion="true">cpe:/a:python_software_foundation:python:2.2.1</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2004-2680</name>
+                    <cvssScore>5.0</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>NONE</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>NONE</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <description>mod_python (libapache2-mod-python) 3.1.4 and earlier does not properly handle when output filters process more than 16384 bytes, which can cause filter.read to return portions of previously freed memory.</description>
+                    <references>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://mail-archives.apache.org/mod_mbox/httpd-python-dev/200404.mbox/%3c6DCA8C14-8FFA-11D8-8B4E-000A95B0D772@pixar.com%3e</url>
+                            <name>[httpd-python-dev] 20040416 Re: possible bug in filter.write()</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://launchpad.net/bugs/89308</url>
+                            <name>https://launchpad.net/bugs/89308</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2007/0846</url>
+                            <name>ADV-2007-0846</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://mail-archives.apache.org/mod_mbox/httpd-python-dev/200404.mbox/%3cCD485B27-8F3E-11D8-934B-000A95B0D772@pixar.com%3e</url>
+                            <name>[httpd-python-dev] 20040416 possible bug in filter.write()</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://mail-archives.apache.org/mod_mbox/httpd-python-dev/200404.mbox/%3cEB279100-9000-11D8-8B4E-000A95B0D772@pixar.com%3e</url>
+                            <name>[httpd-python-dev] 20040416 patch for filterobject.c</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/usn-430-1</url>
+                            <name>USN-430-1</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/14751</url>
+                            <name>modpython-outputfilter-info-disclosure(14751)</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://svn.apache.org/viewvc/httpd/mod_python/trunk/src/filterobject.c?r1=102649&amp;r2=103561&amp;pathrev=103561</url>
+                            <name>http://svn.apache.org/viewvc/httpd/mod_python/trunk/src/filterobject.c?r1=102649&amp;r2=103561&amp;pathrev=103561</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/22849</url>
+                            <name>22849</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://issues.rpath.com/browse/RPL-1105</url>
+                            <name>https://issues.rpath.com/browse/RPL-1105</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/462185/100/0/threaded</url>
+                            <name>20070307 rPSA-2007-0051-1 mod_python</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software allPreviousVersion="true">cpe:/a:apache:mod_python:3.1.4</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2005-0088</name>
+                    <cvssScore>7.5</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <description>The publisher handler for mod_python 2.7.8 and earlier allows remote attackers to obtain access to restricted objects via a crafted URL.</description>
+                    <references>
+                        <reference>
+                            <source>GENTOO</source>
+                            <url>http://security.gentoo.org/glsa/glsa-200502-14.xml</url>
+                            <name>GLSA-200502-14</name>
+                        </reference>
+                        <reference>
+                            <source>CERT-VN</source>
+                            <url>http://www.kb.cert.org/vuls/id/356409</url>
+                            <name>VU#356409</name>
+                        </reference>
+                        <reference>
+                            <source>SECTRACK</source>
+                            <url>http://securitytracker.com/id?1013156</url>
+                            <name>1013156</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/12519</url>
+                            <name>12519</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2005/dsa-689</url>
+                            <name>DSA-689</name>
+                        </reference>
+                        <reference>
+                            <source>REDHAT</source>
+                            <url>http://www.redhat.com/support/errata/RHSA-2005-100.html</url>
+                            <name>RHSA-2005:100</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://marc.info/?l=bugtraq&amp;m=110815313218389&amp;w=2</url>
+                            <name>20050211 [USN-80-1] mod_python vulnerability</name>
+                        </reference>
+                        <reference>
+                            <source>FEDORA</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/430286/100/0/threaded</url>
+                            <name>FLSA:152896</name>
+                        </reference>
+                        <reference>
+                            <source>REDHAT</source>
+                            <url>http://www.redhat.com/support/errata/RHSA-2005-104.html</url>
+                            <name>RHSA-2005:104</name>
+                        </reference>
+                        <reference>
+                            <source>TRUSTIX</source>
+                            <url>http://www.trustix.org/errata/2005/0003/</url>
+                            <name>2005-0003</name>
+                        </reference>
+                        <reference>
+                            <source>CONECTIVA</source>
+                            <url>http://distro.conectiva.com.br/atualizacoes/?id=a&amp;anuncio=000926</url>
+                            <name>CLA-2005:926</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:apache:mod_python:2.1</software>
+                        <software>cpe:/a:apache:mod_python:2.0</software>
+                        <software>cpe:/a:apache:mod_python:1.9a</software>
+                        <software>cpe:/a:apache:mod_python:2.7.5</software>
+                        <software>cpe:/a:apache:mod_python:2.7.6</software>
+                        <software>cpe:/a:apache:mod_python:2.7.7</software>
+                        <software allPreviousVersion="true">cpe:/a:apache:mod_python:2.7.8</software>
+                        <software>cpe:/a:apache:mod_python:2.6.2</software>
+                        <software>cpe:/a:apache:mod_python:2.7.1</software>
+                        <software>cpe:/a:apache:mod_python:2.6.3</software>
+                        <software>cpe:/a:apache:mod_python:2.7.2</software>
+                        <software>cpe:/a:apache:mod_python:2.6.4</software>
+                        <software>cpe:/a:apache:mod_python:2.7.3</software>
+                        <software>cpe:/a:apache:mod_python:2.7.4</software>
+                        <software>cpe:/a:apache:mod_python:2.7</software>
+                        <software>cpe:/a:apache:mod_python:2.4.1</software>
+                        <software>cpe:/a:apache:mod_python:2.6</software>
+                        <software>cpe:/a:apache:mod_python:2.6.1</software>
+                        <software>cpe:/a:apache:mod_python:2.3</software>
+                        <software>cpe:/a:apache:mod_python:2.2</software>
+                        <software>cpe:/a:apache:mod_python:2.5</software>
+                        <software>cpe:/a:apache:mod_python:2.4</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2006-1542</name>
+                    <cvssScore>3.7</cvssScore>
+                    <cvssAccessVector>LOCAL</cvssAccessVector>
+                    <cvssAccessComplexity>HIGH</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>Low</severity>
+                    <description>Stack-based buffer overflow in Python 2.4.2 and earlier, running on Linux 2.6.12.5 under gcc 4.0.3 with libc 2.3.5, allows local users to cause a &quot;stack overflow,&quot; and possibly gain privileges, by running a script from a current working directory that has a long name, related to the realpath function.  NOTE: this might not be a vulnerability. However, the fact that it appears in a programming language interpreter could mean that some applications are affected, although attack scenarios might be limited because the attacker might already need to cross privilege boundaries to cause an exploitable program to be placed in a directory with a long name; or, depending on the method that Python uses to determine the current working directory, setuid applications might be affected.</description>
+                    <references>
+                        <reference>
+                            <source>MISC</source>
+                            <url>http://www.gotfault.net/research/exploit/gexp-python.py</url>
+                            <name>http://www.gotfault.net/research/exploit/gexp-python.py</name>
+                        </reference>
+                        <reference>
+                            <source>EXPLOIT-DB</source>
+                            <url>https://www.exploit-db.com/exploits/1591</url>
+                            <name>1591</name>
+                        </reference>
+                        <reference>
+                            <source>REDHAT</source>
+                            <url>http://www.redhat.com/support/errata/RHSA-2008-0629.html</url>
+                            <name>RHSA-2008:0629</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:python_software_foundation:python:2.3.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.3</software>
+                        <software allPreviousVersion="true">cpe:/a:python_software_foundation:python:2.4.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2007-4559</name>
+                    <cvssScore>6.8</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>MEDIUM</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <cwe>CWE-22 Improper Limitation of a Pathname to a Restricted Directory (&apos;Path Traversal&apos;)</cwe>
+                    <description>Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.</description>
+                    <references>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://mail.python.org/pipermail/python-dev/2007-August/074290.html</url>
+                            <name>[python-dev] 20070824 tarfile and directory traversal vulnerability</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://bugzilla.redhat.com/show_bug.cgi?id=263261</url>
+                            <name>https://bugzilla.redhat.com/show_bug.cgi?id=263261</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://mail.python.org/pipermail/python-dev/2007-August/074292.html</url>
+                            <name>[python-dev] 20070825 tarfile and directory traversal vulnerability</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2007/3022</url>
+                            <name>ADV-2007-3022</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:python_software_foundation:python</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2007-4965</name>
+                    <cvssScore>5.8</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>MEDIUM</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>NONE</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <cwe>CWE-189 Numeric Errors</cwe>
+                    <description>Multiple integer overflows in the imageop module in Python 2.5.1 and earlier allow context-dependent attackers to cause a denial of service (application crash) and possibly obtain sensitive information (memory contents) via crafted arguments to (1) the tovideo method, and unspecified other vectors related to (2) imageop.c, (3) rbgimgmodule.c, and other files, which trigger heap-based buffer overflows.</description>
+                    <references>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/25696</url>
+                            <name>25696</name>
+                        </reference>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:013</url>
+                            <name>MDVSA-2008:013</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://lists.vmware.com/pipermail/security-announce/2008/000005.html</url>
+                            <name>[Security-announce] 20080221 VMSA-2008-0003 Moderate: Updated aacraid driver and samba and python service console updates</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/488457/100/0/threaded</url>
+                            <name>20080221 VMSA-2008-0003 Moderate: Updated aacraid driver and samba and python service console updates</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.avaya.com/css/P8/documents/100074697</url>
+                            <name>http://support.avaya.com/css/P8/documents/100074697</name>
+                        </reference>
+                        <reference>
+                            <source>FEDORA</source>
+                            <url>https://www.redhat.com/archives/fedora-package-announce/2007-October/msg00378.html</url>
+                            <name>FEDORA-2007-2663</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2008/0637</url>
+                            <name>ADV-2008-0637</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2009/3316</url>
+                            <name>ADV-2009-3316</name>
+                        </reference>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:012</url>
+                            <name>MDVSA-2008:012</name>
+                        </reference>
+                        <reference>
+                            <source>REDHAT</source>
+                            <url>http://www.redhat.com/support/errata/RHSA-2007-1076.html</url>
+                            <name>RHSA-2007:1076</name>
+                        </reference>
+                        <reference>
+                            <source>REDHAT</source>
+                            <url>http://www.redhat.com/support/errata/RHSA-2008-0629.html</url>
+                            <name>RHSA-2008:0629</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/507985/100/0/threaded</url>
+                            <name>20091120 VMSA-2009-0016 VMware vCenter and ESX update release and vMA patch release address multiple security issue in third party components</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://wiki.rpath.com/wiki/Advisories:rPSA-2007-0254</url>
+                            <name>http://wiki.rpath.com/wiki/Advisories:rPSA-2007-0254</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/usn-585-1</url>
+                            <name>USN-585-1</name>
+                        </reference>
+                        <reference>
+                            <source>CERT</source>
+                            <url>http://www.us-cert.gov/cas/techalerts/TA07-352A.html</url>
+                            <name>TA07-352A</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.gentoo.org/show_bug.cgi?id=192876</url>
+                            <name>http://bugs.gentoo.org/show_bug.cgi?id=192876</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://issues.rpath.com/browse/RPL-1885</url>
+                            <name>https://issues.rpath.com/browse/RPL-1885</name>
+                        </reference>
+                        <reference>
+                            <source>APPLE</source>
+                            <url>http://lists.apple.com/archives/security-announce/2007/Dec/msg00002.html</url>
+                            <name>APPLE-SA-2007-12-17</name>
+                        </reference>
+                        <reference>
+                            <source>GENTOO</source>
+                            <url>http://www.gentoo.org/security/en/glsa/glsa-200711-07.xml</url>
+                            <name>GLSA-200711-07</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.apple.com/kb/HT3438</url>
+                            <name>http://support.apple.com/kb/HT3438</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/487990/100/0/threaded</url>
+                            <name>20080212 FLEA-2008-0002-1 python</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1551</url>
+                            <name>DSA-1551</name>
+                        </reference>
+                        <reference>
+                            <source>SUSE</source>
+                            <url>http://lists.opensuse.org/opensuse-security-announce/2008-02/msg00003.html</url>
+                            <name>SUSE-SR:2008:003</name>
+                        </reference>
+                        <reference>
+                            <source>FULLDISC</source>
+                            <url>http://lists.grok.org.uk/pipermail/full-disclosure/2007-September/065826.html</url>
+                            <name>20070916 python &lt;= 2.5.1 standart librairy multiples int overflow, heap overflow in imageop module</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2007/3201</url>
+                            <name>ADV-2007-3201</name>
+                        </reference>
+                        <reference>
+                            <source>APPLE</source>
+                            <url>http://lists.apple.com/archives/security-announce/2009/Feb/msg00000.html</url>
+                            <name>APPLE-SA-2009-02-12</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1620</url>
+                            <name>DSA-1620</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://docs.info.apple.com/article.html?artnum=307179</url>
+                            <name>http://docs.info.apple.com/article.html?artnum=307179</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2007/4238</url>
+                            <name>ADV-2007-4238</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/36653</url>
+                            <name>python-imageop-bo(36653)</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</url>
+                            <name>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:python_software_foundation:python:2.3.6</software>
+                        <software>cpe:/a:python_software_foundation:python:1.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0.1</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2008-1679</name>
+                    <cvssScore>6.8</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>MEDIUM</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <cwe>CWE-189 Numeric Errors</cwe>
+                    <description>Multiple integer overflows in imageop.c in Python before 2.5.3 allow context-dependent attackers to cause a denial of service (crash) and possibly execute arbitrary code via crafted images that trigger heap-based buffer overflows.  NOTE: this issue is due to an incomplete fix for CVE-2007-4965.</description>
+                    <references>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:163</url>
+                            <name>MDVSA-2008:163</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</url>
+                            <name>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://issues.rpath.com/browse/RPL-2424</url>
+                            <name>https://issues.rpath.com/browse/RPL-2424</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.apple.com/kb/HT3438</url>
+                            <name>http://support.apple.com/kb/HT3438</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/usn-632-1</url>
+                            <name>USN-632-1</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.avaya.com/css/P8/documents/100074697</url>
+                            <name>http://support.avaya.com/css/P8/documents/100074697</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://wiki.rpath.com/wiki/Advisories:rPSA-2008-0149</url>
+                            <name>http://wiki.rpath.com/wiki/Advisories:rPSA-2008-0149</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1551</url>
+                            <name>DSA-1551</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/41958</url>
+                            <name>python-imageopc-bo(41958)</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.python.org/issue1179</url>
+                            <name>http://bugs.python.org/issue1179</name>
+                        </reference>
+                        <reference>
+                            <source>SLACKWARE</source>
+                            <url>http://slackware.com/security/viewer.php?l=slackware-security&amp;y=2008&amp;m=slackware-security.525289</url>
+                            <name>SSA:2008-217-01</name>
+                        </reference>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:164</url>
+                            <name>MDVSA-2008:164</name>
+                        </reference>
+                        <reference>
+                            <source>GENTOO</source>
+                            <url>http://security.gentoo.org/glsa/glsa-200807-01.xml</url>
+                            <name>GLSA-200807-01</name>
+                        </reference>
+                        <reference>
+                            <source>APPLE</source>
+                            <url>http://lists.apple.com/archives/security-announce/2009/Feb/msg00000.html</url>
+                            <name>APPLE-SA-2009-02-12</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1620</url>
+                            <name>DSA-1620</name>
+                        </reference>
+                        <reference>
+                            <source>MISC</source>
+                            <url>http://bugs.python.org/msg64682</url>
+                            <name>http://bugs.python.org/msg64682</name>
+                        </reference>
+                        <reference>
+                            <source>SUSE</source>
+                            <url>http://lists.opensuse.org/opensuse-security-announce/2008-08/msg00006.html</url>
+                            <name>SUSE-SR:2008:017</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software allPreviousVersion="true">cpe:/a:python_software_foundation:python:2.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2008-1721</name>
+                    <cvssScore>7.5</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <cwe>CWE-189 Numeric Errors</cwe>
+                    <description>Integer signedness error in the zlib extension module in Python 2.5.2 and earlier allows remote attackers to execute arbitrary code via a negative signed integer, which triggers insufficient memory allocation and a buffer overflow.</description>
+                    <references>
+                        <reference>
+                            <source>SECTRACK</source>
+                            <url>http://www.securitytracker.com/id?1019823</url>
+                            <name>1019823</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.apple.com/kb/HT3438</url>
+                            <name>http://support.apple.com/kb/HT3438</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/usn-632-1</url>
+                            <name>USN-632-1</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/41748</url>
+                            <name>zlib-pystringfromstringandsize-bo(41748)</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.avaya.com/css/P8/documents/100074697</url>
+                            <name>http://support.avaya.com/css/P8/documents/100074697</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://wiki.rpath.com/wiki/Advisories:rPSA-2008-0149</url>
+                            <name>http://wiki.rpath.com/wiki/Advisories:rPSA-2008-0149</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1551</url>
+                            <name>DSA-1551</name>
+                        </reference>
+                        <reference>
+                            <source>SLACKWARE</source>
+                            <url>http://slackware.com/security/viewer.php?l=slackware-security&amp;y=2008&amp;m=slackware-security.525289</url>
+                            <name>SSA:2008-217-01</name>
+                        </reference>
+                        <reference>
+                            <source>SREASON</source>
+                            <url>http://securityreason.com/securityalert/3802</url>
+                            <name>3802</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2009/3316</url>
+                            <name>ADV-2009-3316</name>
+                        </reference>
+                        <reference>
+                            <source>GENTOO</source>
+                            <url>http://security.gentoo.org/glsa/glsa-200807-01.xml</url>
+                            <name>GLSA-200807-01</name>
+                        </reference>
+                        <reference>
+                            <source>APPLE</source>
+                            <url>http://lists.apple.com/archives/security-announce/2009/Feb/msg00000.html</url>
+                            <name>APPLE-SA-2009-02-12</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1620</url>
+                            <name>DSA-1620</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.python.org/issue2586</url>
+                            <name>http://bugs.python.org/issue2586</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2008/1229/references</url>
+                            <name>ADV-2008-1229</name>
+                        </reference>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:085</url>
+                            <name>MDVSA-2008:085</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://issues.rpath.com/browse/RPL-2444</url>
+                            <name>https://issues.rpath.com/browse/RPL-2444</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/28715</url>
+                            <name>28715</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/507985/100/0/threaded</url>
+                            <name>20091120 VMSA-2009-0016 VMware vCenter and ESX update release and vMA patch release address multiple security issue in third party components</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</url>
+                            <name>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/490690/100/0/threaded</url>
+                            <name>20080409 IOActive Security Advisory: Buffer overflow in Python zlib extension module</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software allPreviousVersion="true">cpe:/a:python_software_foundation:python:2.5.2</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2008-1887</name>
+                    <cvssScore>9.3</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>MEDIUM</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>COMPLETE</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>COMPLETE</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>COMPLETE</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <cwe>CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer</cwe>
+                    <description>Python 2.5.2 and earlier allows context-dependent attackers to execute arbitrary code via multiple vectors that cause a negative size value to be provided to the PyString_FromStringAndSize function, which allocates less memory than expected when assert() is disabled and triggers a buffer overflow.</description>
+                    <references>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.python.org/issue2587</url>
+                            <name>http://bugs.python.org/issue2587</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</url>
+                            <name>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.apple.com/kb/HT3438</url>
+                            <name>http://support.apple.com/kb/HT3438</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/usn-632-1</url>
+                            <name>USN-632-1</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/506056/100/0/threaded</url>
+                            <name>20090824 rPSA-2009-0122-1 idle python</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1551</url>
+                            <name>DSA-1551</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/28749</url>
+                            <name>28749</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2009/3316</url>
+                            <name>ADV-2009-3316</name>
+                        </reference>
+                        <reference>
+                            <source>GENTOO</source>
+                            <url>http://security.gentoo.org/glsa/glsa-200807-01.xml</url>
+                            <name>GLSA-200807-01</name>
+                        </reference>
+                        <reference>
+                            <source>APPLE</source>
+                            <url>http://lists.apple.com/archives/security-announce/2009/Feb/msg00000.html</url>
+                            <name>APPLE-SA-2009-02-12</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1620</url>
+                            <name>DSA-1620</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/41944</url>
+                            <name>python-pystringfromstringandsize-bo(41944)</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://wiki.rpath.com/wiki/Advisories:rPSA-2009-0122</url>
+                            <name>http://wiki.rpath.com/wiki/Advisories:rPSA-2009-0122</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/507985/100/0/threaded</url>
+                            <name>20091120 VMSA-2009-0016 VMware vCenter and ESX update release and vMA patch release address multiple security issue in third party components</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/490776</url>
+                            <name>20080411 IOActive Security Advisory: Incorrect input validation in PyString_FromStringAndSize() leads to multiple buffer overflows</name>
+                        </reference>
+                        <reference>
+                            <source>SUSE</source>
+                            <url>http://lists.opensuse.org/opensuse-security-announce/2008-08/msg00006.html</url>
+                            <name>SUSE-SR:2008:017</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</url>
+                            <name>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:python_software_foundation:python:2.3.6</software>
+                        <software>cpe:/a:python_software_foundation:python:1.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.3</software>
+                        <software allPreviousVersion="true">cpe:/a:python_software_foundation:python:2.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5_alpha_1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5_alpha_2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5_release_candidate_2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5_release_candidate_1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5_beta_1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5_beta_3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5_beta_2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5_final</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2008-2315</name>
+                    <cvssScore>7.5</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <cwe>CWE-189 Numeric Errors</cwe>
+                    <description>Multiple integer overflows in Python 2.5.2 and earlier allow context-dependent attackers to have an unknown impact via vectors related to the (1) stringobject, (2) unicodeobject, (3) bufferobject, (4) longobject, (5) tupleobject, (6) stropmodule, (7) gcmodule, and (8) mmapmodule modules.  NOTE: The expandtabs integer overflows in stringobject and unicodeobject in 2.5.2 are covered by CVE-2008-5031.</description>
+                    <references>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.gentoo.org/show_bug.cgi?id=230640</url>
+                            <name>http://bugs.gentoo.org/show_bug.cgi?id=230640</name>
+                        </reference>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:163</url>
+                            <name>MDVSA-2008:163</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</url>
+                            <name>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.apple.com/kb/HT3438</url>
+                            <name>http://support.apple.com/kb/HT3438</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/usn-632-1</url>
+                            <name>USN-632-1</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/44173</url>
+                            <name>python-multiple-bo(44173)</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.avaya.com/css/P8/documents/100074697</url>
+                            <name>http://support.avaya.com/css/P8/documents/100074697</name>
+                        </reference>
+                        <reference>
+                            <source>GENTOO</source>
+                            <url>http://security.gentoo.org/glsa/glsa-200807-16.xml</url>
+                            <name>GLSA-200807-16</name>
+                        </reference>
+                        <reference>
+                            <source>SLACKWARE</source>
+                            <url>http://slackware.com/security/viewer.php?l=slackware-security&amp;y=2008&amp;m=slackware-security.525289</url>
+                            <name>SSA:2008-217-01</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://www.openwall.com/lists/oss-security/2008/11/05/3</url>
+                            <name>[oss-security] 20081105 Re: CVE Request - Python string expandtabs</name>
+                        </reference>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:164</url>
+                            <name>MDVSA-2008:164</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/30491</url>
+                            <name>30491</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2009/3316</url>
+                            <name>ADV-2009-3316</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/44172</url>
+                            <name>python-modules-bo(44172)</name>
+                        </reference>
+                        <reference>
+                            <source>APPLE</source>
+                            <url>http://lists.apple.com/archives/security-announce/2009/Feb/msg00000.html</url>
+                            <name>APPLE-SA-2009-02-12</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/507985/100/0/threaded</url>
+                            <name>20091120 VMSA-2009-0016 VMware vCenter and ESX update release and vMA patch release address multiple security issue in third party components</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2008/2288</url>
+                            <name>ADV-2008-2288</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://www.openwall.com/lists/oss-security/2008/11/05/2</url>
+                            <name>[oss-security] 20081105 CVE Request - Python string expandtabs</name>
+                        </reference>
+                        <reference>
+                            <source>SUSE</source>
+                            <url>http://lists.opensuse.org/opensuse-security-announce/2008-08/msg00006.html</url>
+                            <name>SUSE-SR:2008:017</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</url>
+                            <name>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1667</url>
+                            <name>DSA-1667</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.gentoo.org/attachment.cgi?id=159418&amp;action=view</url>
+                            <name>http://bugs.gentoo.org/attachment.cgi?id=159418&amp;action=view</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:python_software_foundation:python:2.3.7</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.5</software>
+                        <software>cpe:/a:python_software_foundation:python:1.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.3</software>
+                        <software allPreviousVersion="true">cpe:/a:python_software_foundation:python:2.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0.1</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2008-3142</name>
+                    <cvssScore>7.5</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <cwe>CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer</cwe>
+                    <description>Multiple buffer overflows in Python 2.5.2 and earlier on 32bit platforms allow context-dependent attackers to cause a denial of service (crash) or have unspecified other impact via a long string that leads to incorrect memory allocation during Unicode string processing, related to the unicode_resize function and the PyMem_RESIZE macro.</description>
+                    <references>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:163</url>
+                            <name>MDVSA-2008:163</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</url>
+                            <name>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.apple.com/kb/HT3438</url>
+                            <name>http://support.apple.com/kb/HT3438</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/usn-632-1</url>
+                            <name>USN-632-1</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/44170</url>
+                            <name>python-unicode-bo(44170)</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/44173</url>
+                            <name>python-multiple-bo(44173)</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.python.org/issue2620</url>
+                            <name>http://bugs.python.org/issue2620</name>
+                        </reference>
+                        <reference>
+                            <source>GENTOO</source>
+                            <url>http://security.gentoo.org/glsa/glsa-200807-16.xml</url>
+                            <name>GLSA-200807-16</name>
+                        </reference>
+                        <reference>
+                            <source>SLACKWARE</source>
+                            <url>http://slackware.com/security/viewer.php?l=slackware-security&amp;y=2008&amp;m=slackware-security.525289</url>
+                            <name>SSA:2008-217-01</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/495445/100/0/threaded</url>
+                            <name>20080813 rPSA-2008-0243-1 idle python</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.python.org/file10825/issue2620-gps02-patch.txt</url>
+                            <name>http://bugs.python.org/file10825/issue2620-gps02-patch.txt</name>
+                        </reference>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:164</url>
+                            <name>MDVSA-2008:164</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/30491</url>
+                            <name>30491</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2009/3316</url>
+                            <name>ADV-2009-3316</name>
+                        </reference>
+                        <reference>
+                            <source>APPLE</source>
+                            <url>http://lists.apple.com/archives/security-announce/2009/Feb/msg00000.html</url>
+                            <name>APPLE-SA-2009-02-12</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://wiki.rpath.com/Advisories:rPSA-2008-0243</url>
+                            <name>http://wiki.rpath.com/Advisories:rPSA-2008-0243</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/507985/100/0/threaded</url>
+                            <name>20091120 VMSA-2009-0016 VMware vCenter and ESX update release and vMA patch release address multiple security issue in third party components</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2008/2288</url>
+                            <name>ADV-2008-2288</name>
+                        </reference>
+                        <reference>
+                            <source>SUSE</source>
+                            <url>http://lists.opensuse.org/opensuse-security-announce/2008-08/msg00006.html</url>
+                            <name>SUSE-SR:2008:017</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</url>
+                            <name>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1667</url>
+                            <name>DSA-1667</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.gentoo.org/show_bug.cgi?id=232137</url>
+                            <name>http://bugs.gentoo.org/show_bug.cgi?id=232137</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:python_software_foundation:python:2.3.7</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.5</software>
+                        <software>cpe:/a:python_software_foundation:python:1.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.3</software>
+                        <software allPreviousVersion="true">cpe:/a:python_software_foundation:python:2.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0.1</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2008-3143</name>
+                    <cvssScore>7.5</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <cwe>CWE-189 Numeric Errors</cwe>
+                    <description>Multiple integer overflows in Python before 2.5.2 might allow context-dependent attackers to have an unknown impact via vectors related to (1) Include/pymem.h; (2) _csv.c, (3) _struct.c, (4) arraymodule.c, (5) audioop.c, (6) binascii.c, (7) cPickle.c, (8) cStringIO.c, (9) cjkcodecs/multibytecodec.c, (10) datetimemodule.c, (11) md5.c, (12) rgbimgmodule.c, and (13) stropmodule.c in Modules/; (14) bufferobject.c, (15) listobject.c, and (16) obmalloc.c in Objects/; (17) Parser/node.c; and (18) asdl.c, (19) ast.c, (20) bltinmodule.c, and (21) compile.c in Python/, as addressed by &quot;checks for integer overflows, contributed by Google.&quot;</description>
+                    <references>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:163</url>
+                            <name>MDVSA-2008:163</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</url>
+                            <name>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.python.org/download/releases/2.6/NEWS.txt</url>
+                            <name>http://www.python.org/download/releases/2.6/NEWS.txt</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/usn-632-1</url>
+                            <name>USN-632-1</name>
+                        </reference>
+                        <reference>
+                            <source>GENTOO</source>
+                            <url>http://security.gentoo.org/glsa/glsa-200807-16.xml</url>
+                            <name>GLSA-200807-16</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/495445/100/0/threaded</url>
+                            <name>20080813 rPSA-2008-0243-1 idle python</name>
+                        </reference>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:164</url>
+                            <name>MDVSA-2008:164</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/30491</url>
+                            <name>30491</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2009/3316</url>
+                            <name>ADV-2009-3316</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://wiki.rpath.com/Advisories:rPSA-2008-0243</url>
+                            <name>http://wiki.rpath.com/Advisories:rPSA-2008-0243</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/507985/100/0/threaded</url>
+                            <name>20091120 VMSA-2009-0016 VMware vCenter and ESX update release and vMA patch release address multiple security issue in third party components</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2008/2288</url>
+                            <name>ADV-2008-2288</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://svn.python.org/view?rev=60793&amp;view=rev</url>
+                            <name>http://svn.python.org/view?rev=60793&amp;view=rev</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.python.org/download/releases/2.5.2/NEWS.txt</url>
+                            <name>http://www.python.org/download/releases/2.5.2/NEWS.txt</name>
+                        </reference>
+                        <reference>
+                            <source>SUSE</source>
+                            <url>http://lists.opensuse.org/opensuse-security-announce/2008-08/msg00006.html</url>
+                            <name>SUSE-SR:2008:017</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</url>
+                            <name>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1667</url>
+                            <name>DSA-1667</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.gentoo.org/show_bug.cgi?id=232137</url>
+                            <name>http://bugs.gentoo.org/show_bug.cgi?id=232137</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:python_software_foundation:python:2.3.7</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.5</software>
+                        <software>cpe:/a:python_software_foundation:python:1.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6.1</software>
+                        <software allPreviousVersion="true">cpe:/a:python_software_foundation:python:2.5.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0.1</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2008-3144</name>
+                    <cvssScore>5.0</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>NONE</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>NONE</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <cwe>CWE-189 Numeric Errors</cwe>
+                    <description>Multiple integer overflows in the PyOS_vsnprintf function in Python/mysnprintf.c in Python 2.5.2 and earlier allow context-dependent attackers to cause a denial of service (memory corruption) or have unspecified other impact via crafted input to string formatting operations.  NOTE: the handling of certain integer values is also affected by related integer underflows and an off-by-one error.</description>
+                    <references>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:163</url>
+                            <name>MDVSA-2008:163</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</url>
+                            <name>http://www.novell.com/support/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=InfoDocument-patchbuilder-readme5032900</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.python.org/issue2589</url>
+                            <name>http://bugs.python.org/issue2589</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/44173</url>
+                            <name>python-multiple-bo(44173)</name>
+                        </reference>
+                        <reference>
+                            <source>SLACKWARE</source>
+                            <url>http://slackware.com/security/viewer.php?l=slackware-security&amp;y=2008&amp;m=slackware-security.525289</url>
+                            <name>SSA:2008-217-01</name>
+                        </reference>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2008:164</url>
+                            <name>MDVSA-2008:164</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2009/3316</url>
+                            <name>ADV-2009-3316</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://svn.python.org/view?rev=63883&amp;view=rev</url>
+                            <name>http://svn.python.org/view?rev=63883&amp;view=rev</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/507985/100/0/threaded</url>
+                            <name>20091120 VMSA-2009-0016 VMware vCenter and ESX update release and vMA patch release address multiple security issue in third party components</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2008/2288</url>
+                            <name>ADV-2008-2288</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2008/dsa-1667</url>
+                            <name>DSA-1667</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://svn.python.org/view?rev=63728&amp;view=rev</url>
+                            <name>http://svn.python.org/view?rev=63728&amp;view=rev</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/44171</url>
+                            <name>python-pyosvsnprintf-bo(44171)</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.apple.com/kb/HT3438</url>
+                            <name>http://support.apple.com/kb/HT3438</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/usn-632-1</url>
+                            <name>USN-632-1</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://svn.python.org/view?rev=63734&amp;view=rev</url>
+                            <name>http://svn.python.org/view?rev=63734&amp;view=rev</name>
+                        </reference>
+                        <reference>
+                            <source>GENTOO</source>
+                            <url>http://security.gentoo.org/glsa/glsa-200807-16.xml</url>
+                            <name>GLSA-200807-16</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/495445/100/0/threaded</url>
+                            <name>20080813 rPSA-2008-0243-1 idle python</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/30491</url>
+                            <name>30491</name>
+                        </reference>
+                        <reference>
+                            <source>APPLE</source>
+                            <url>http://lists.apple.com/archives/security-announce/2009/Feb/msg00000.html</url>
+                            <name>APPLE-SA-2009-02-12</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://wiki.rpath.com/Advisories:rPSA-2008-0243</url>
+                            <name>http://wiki.rpath.com/Advisories:rPSA-2008-0243</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.python.org/issue2588</url>
+                            <name>http://bugs.python.org/issue2588</name>
+                        </reference>
+                        <reference>
+                            <source>SUSE</source>
+                            <url>http://lists.opensuse.org/opensuse-security-announce/2008-08/msg00006.html</url>
+                            <name>SUSE-SR:2008:017</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</url>
+                            <name>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.gentoo.org/show_bug.cgi?id=232137</url>
+                            <name>http://bugs.gentoo.org/show_bug.cgi?id=232137</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:python_software_foundation:python:2.3.7</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.5</software>
+                        <software>cpe:/a:python_software_foundation:python:1.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0.1</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2008-4864</name>
+                    <cvssScore>7.5</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <cwe>CWE-189 Numeric Errors</cwe>
+                    <description>Multiple integer overflows in imageop.c in the imageop module in Python 1.5.2 through 2.5.1 allow context-dependent attackers to break out of the Python VM and execute arbitrary code via large integer values in certain arguments to the crop function, leading to a buffer overflow, a different vulnerability than CVE-2007-4965 and CVE-2008-1679.</description>
+                    <references>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://www.openwall.com/lists/oss-security/2008/10/27/2</url>
+                            <name>[oss-security] 20081027 CVE request -- Python imageop#3</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>https://exchange.xforce.ibmcloud.com/vulnerabilities/46606</url>
+                            <name>python-image-module-bo(46606)</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.apple.com/kb/HT3438</url>
+                            <name>http://support.apple.com/kb/HT3438</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/31976</url>
+                            <name>31976</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://www.openwall.com/lists/oss-security/2008/10/29/3</url>
+                            <name>[oss-security] 20081029 CVE Request - Python imageop</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2009/3316</url>
+                            <name>ADV-2009-3316</name>
+                        </reference>
+                        <reference>
+                            <source>APPLE</source>
+                            <url>http://lists.apple.com/archives/security-announce/2009/Feb/msg00000.html</url>
+                            <name>APPLE-SA-2009-02-12</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/31932</url>
+                            <name>31932</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://svn.python.org/view/python/trunk/Modules/imageop.c?rev=66689&amp;view=diff&amp;r1=66689&amp;r2=66688&amp;p1=python/trunk/Modules/imageop.c&amp;p2=/python/trunk/Modules/imageop.c</url>
+                            <name>http://svn.python.org/view/python/trunk/Modules/imageop.c?rev=66689&amp;view=diff&amp;r1=66689&amp;r2=66688&amp;p1=python/trunk/Modules/imageop.c&amp;p2=/python/trunk/Modules/imageop.c</name>
+                        </reference>
+                        <reference>
+                            <source>MISC</source>
+                            <url>http://scary.beasts.org/security/CESA-2008-008.html</url>
+                            <name>http://scary.beasts.org/security/CESA-2008-008.html</name>
+                        </reference>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://www.securityfocus.com/archive/1/archive/1/507985/100/0/threaded</url>
+                            <name>20091120 VMSA-2009-0016 VMware vCenter and ESX update release and vMA patch release address multiple security issue in third party components</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</url>
+                            <name>http://www.vmware.com/security/advisories/VMSA-2009-0016.html</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://svn.python.org/view?rev=66689&amp;view=rev</url>
+                            <name>http://svn.python.org/view?rev=66689&amp;view=rev</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:python_software_foundation:python:2.3.6</software>
+                        <software>cpe:/a:python_software_foundation:python:1.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0.1</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability source="NVD">
+                    <name>CVE-2008-5983</name>
+                    <cvssScore>6.9</cvssScore>
+                    <cvssAccessVector>LOCAL</cvssAccessVector>
+                    <cvssAccessComplexity>MEDIUM</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>COMPLETE</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>COMPLETE</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>COMPLETE</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <description>Untrusted search path vulnerability in the PySys_SetArgv API function in Python 2.6 and earlier, and possibly later versions, prepends an empty string to sys.path when the argv[0] argument does not contain a path separator, which might allow local users to execute arbitrary code via a Trojan horse Python file in the current working directory.</description>
+                    <references>
+                        <reference>
+                            <source>GENTOO</source>
+                            <url>http://security.gentoo.org/glsa/glsa-200903-41.xml</url>
+                            <name>GLSA-200903-41</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://www.nabble.com/Bug-484305%3A-bicyclerepair%3A-bike.vim-imports-untrusted-python-files-from-cwd-td18848099.html</url>
+                            <name>[debian-bugs-rc] 20080805 Bug#484305: bicyclerepair: bike.vim imports untrusted python files from cwd</name>
+                        </reference>
+                        <reference>
+                            <source>REDHAT</source>
+                            <url>http://www.redhat.com/support/errata/RHSA-2011-0027.html</url>
+                            <name>RHSA-2011:0027</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/USN-1613-1</url>
+                            <name>USN-1613-1</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/USN-1596-1</url>
+                            <name>USN-1596-1</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://www.mail-archive.com/debian-bugs-dist@lists.debian.org/msg586010.html</url>
+                            <name>[debian-bugs] 20081112 Bug#493937: [Patch] Prevent loading of Python modules in working directory</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://www.openwall.com/lists/oss-security/2009/01/28/5</url>
+                            <name>[oss-security] 20090128 Re: CVE request -- Python &lt; 2.6 PySys_SetArgv issues (epiphany, csound, dia, eog, gedit, xchat, vim, nautilus-python, Gnumeric)</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://www.openwall.com/lists/oss-security/2009/01/30/2</url>
+                            <name>[oss-security] 20090130 Re: CVE request -- Python &lt; 2.6 PySys_SetArgv issues (epiphany, csound, dia, eog, gedit, xchat, vim, nautilus-python, Gnumeric)</name>
+                        </reference>
+                        <reference>
+                            <source>FEDORA</source>
+                            <url>http://lists.fedoraproject.org/pipermail/package-announce/2010-June/042751.html</url>
+                            <name>FEDORA-2010-9652</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://www.openwall.com/lists/oss-security/2009/01/26/2</url>
+                            <name>[oss-security] 20090126 CVE request -- Python &lt; 2.6 PySys_SetArgv issues (epiphany, csound, dia, eog, gedit, xchat, vim, nautilus-python, Gnumeric)</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2010/1448</url>
+                            <name>ADV-2010-1448</name>
+                        </reference>
+                        <reference>
+                            <source>GENTOO</source>
+                            <url>http://security.gentoo.org/glsa/glsa-200904-06.xml</url>
+                            <name>GLSA-200904-06</name>
+                        </reference>
+                        <reference>
+                            <source>VUPEN</source>
+                            <url>http://www.vupen.com/english/advisories/2011/0122</url>
+                            <name>ADV-2011-0122</name>
+                        </reference>
+                        <reference>
+                            <source>MISC</source>
+                            <url>https://bugzilla.redhat.com/show_bug.cgi?id=482814</url>
+                            <name>https://bugzilla.redhat.com/show_bug.cgi?id=482814</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/USN-1613-2</url>
+                            <name>USN-1613-2</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://www.ubuntu.com/usn/USN-1616-1</url>
+                            <name>USN-1616-1</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:python_software_foundation:python:2.3.7</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5.4</software>
+                        <software>cpe:/a:python_software_foundation:python:1.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.4</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4</software>
+                        <software>cpe:/a:python_software_foundation:python:1.6</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.5.1</software>
+                        <software allPreviousVersion="true">cpe:/a:python_software_foundation:python:2.6.0</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.4.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.3</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.3.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.2</software>
+                        <software>cpe:/a:python_software_foundation:python:2.2.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.1.1</software>
+                        <software>cpe:/a:python_software_foundation:python:2.0.1</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+            </vulnerabilities>
+        </dependency>
+        <dependency isVirtual="false">
+            <fileName>tests</fileName>
+            <filePath>C:\Users\Eugene\Desktop\GitRepository\Dependency-Scanner-(Python)\DependencyCheck\web\Completion\d094513f50e416adf672da83129d33c41fb7621514f1b59eaf89aee1eae3721\free-python-games-master.zip\free-python-games-master\free-python-games-master\free-python-games-master\tests\__init__.py</filePath>
+            <md5>d41d8cd98f00b204e9800998ecf8427e</md5>
+            <sha1>da39a3ee5e6b4b0d3255bfef95601890afd80709</sha1>
+            <evidenceCollected>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>__init__.py</source>
+                    <name>PackageName</name>
+                    <value>tests</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Dec, 2017, 3:32:22 PM
+    Author     : Eugene Tan
+*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.title{
+    color:black;
+    font-size:30px;
+}
+#head-title{
+    font-size: 40px;
+    background-color: #D0D0D0;
+    padding: 10px 0 10px 0;
+    margin-bottom: 20px;
+}
+.file_drag_area{
+    width:400px;
+    height:300px;
+    border-radius: 40px;
+    border:2px dashed #ccc;
+}
+.file_drag_over{
+    color:#000;
+    border-color:#000;
+}
+#upload{
+    margin-top: 30px;
+    width:50px;
+}
+#dropFileText{
+    margin-top: 20px;
+    font-size:20px;
+}
+#file{
+    margin: 60px 0 0 50px;
+}
+#uploadImage{
+    width:50px;
+}
+#projectName{
+    font-size:20px;
+}
+#reportProjectName{
+    float: left;
+    margin-left: 50px;
+}
+.progress{
+    margin: 0 10px 0 10px;
+}
+.main-container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+table th, td {
+    /*margin-top: 10px;*/
+    padding: 0 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table.fixed { 
+    table-layout:fixed; 
+}
+table.fixed td { 
+    word-wrap: break-word;
+}
+#table2{
+    margin-top: 15px;
+}
+.tip{
+    position: relative;
+    display: inline-block;
+}
+.tip .tip_text{
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom:125%;
+    left:50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tip .tip_text::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.tip:hover .tip_text{
+    visibility: visible;
+    opacity: 1;
+}
+.modal-box{
+    margin-bottom: 30px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+.modal p{
+    word-wrap: break-word;
+}
+.modal-content{
+    width: 800px;
+    left: -90px;
+    /*margin: auto;*/
+}
+.order{
+    color: #808080;
+}
+.download{
+    
+    float: right;
+}
+.download img{
+    width: 30px;
+}
+.return{
+    position: fixed;
+    margin: 37% 0 0 90%;
+}
+.return img{
+    width: 60px;
+}
+.return .return_text{
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom:125%;
+    left:50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.return .return_text::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.return:hover .return_text{
+    visibility: visible;
+    opacity: 1;
+}
+#loading{
+    width: 120px;
+    /*position: absolute;*/
+}
+
+

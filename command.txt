@@ -1,0 +1,1 @@
+dependency-check.bat --project "testing" --scan "C:\Users\Eugene\Desktop\GitRepository\DependencyCheck\DependencyCheck\File Object" --out "C:\Users\Eugene\Desktop\GitRepository\DependencyCheck\DependencyCheck\Generated Result"
