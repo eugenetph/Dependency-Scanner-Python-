@@ -31,7 +31,3 @@ Here are the steps to run Dependency Scanner (Python):
    ```
 
    
-
-http://github.com - automatic!
-[GitHub](http://github.com)
-   
