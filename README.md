@@ -23,7 +23,7 @@ Here are the steps to run Dependency Scanner (Python):
 
 3. After you have git clone or download Dependency Scanner (Python), you have to resolve the dependencies and modify the absolute file path    in the source code using the NetBeans IDE to suit your computer device.
 
-   1. The 2 classes to modify are:
+   1. The 2 classes to be modified are:
    ```bash
    DependencyCheck->Source Packages->ConstantsVariable->FinalConstants.java
    ```
