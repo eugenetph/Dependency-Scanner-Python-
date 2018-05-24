@@ -5,7 +5,7 @@ Here are the steps to run Dependency Scanner (Python):
 
 1. `NetBeans IDE` is required. This project uses `glassfish server`
   
-   https://netbeans.org/downloads/
+   Link: https://netbeans.org/downloads/
    
 2. Integrated tools for this project are:
    1. `Dependency Check` 
