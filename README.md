@@ -12,13 +12,12 @@ Here are the steps to run Dependency Scanner (Python):
 
    Link: https://www.owasp.org/index.php/OWASP_Dependency_Check - (Command line & Documentation)
 
-   ```bash
-   https://github.com/jeremylong/DependencyCheck - (Project source code of Dependency Check)
-   ```
+   Link: https://github.com/jeremylong/DependencyCheck - (Project source code of Dependency Check)
+   
    2. `Safety Check` (You are required to install safety check for this project program to work)
-   ```bash
-   https://github.com/pyupio/safety - (Follow the steps under "readme.md")
-   ```
+
+   Link: https://github.com/pyupio/safety - (Follow the steps under "readme.md")
+
 
 3. After you have git clone or download Dependency Scanner (Python), you have to resolve the dependencies and modify the absolute file path    in the source code using the NetBeans IDE to suit your computer device.
 
