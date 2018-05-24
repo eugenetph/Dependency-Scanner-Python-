@@ -7,11 +7,13 @@ Here are the steps to run Dependency Scanner (Python):
    1.Link: https://netbeans.org/downloads/
 
 1. Integrated tools for this project are:
-   1. `Dependency Check`
+   1. `Dependency Check` 
 ```bash
 https://www.owasp.org/index.php/OWASP_Dependency_Check (Command line & Documentation)
 ```
-   Link: https://github.com/jeremylong/DependencyCheck (Project source code of Dependency Check)
+```bash
+https://github.com/jeremylong/DependencyCheck (Project source code of Dependency Check)
+```
    1. `Safety Check` (You are required to install safety check for this project program to work)
    Link: https://github.com/pyupio/safety (Follow the steps under "readme.md")
 
