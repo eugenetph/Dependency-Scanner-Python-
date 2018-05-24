@@ -4,9 +4,9 @@ This is a Final Year Project, Dependency Scanner (Python) done by me during my t
 Here are the steps to run Dependency Scanner (Python):
 
 1. `NetBeans IDE` is required. This project uses `glassfish server`
-   ```bash
+  
    https://netbeans.org/downloads/
-   ```
+   
 2. Integrated tools for this project are:
    1. `Dependency Check` 
    ```bash
