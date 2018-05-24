@@ -29,5 +29,6 @@ Here are the steps to run Dependency Scanner (Python):
    ```bash
    DependencyCheck->Source Packages->Controllers->FileController.java
    ```
-
+http://github.com - automatic!
+[GitHub](http://github.com)
    
