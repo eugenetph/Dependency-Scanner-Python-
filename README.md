@@ -9,9 +9,9 @@ Here are the steps to run Dependency Scanner (Python):
    
 2. Integrated tools for this project are:
    1. `Dependency Check` 
-   ```bash
-   https://www.owasp.org/index.php/OWASP_Dependency_Check - (Command line & Documentation)
-   ```
+
+   Link: https://www.owasp.org/index.php/OWASP_Dependency_Check - (Command line & Documentation)
+
    ```bash
    https://github.com/jeremylong/DependencyCheck - (Project source code of Dependency Check)
    ```
